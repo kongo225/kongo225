@@ -1,0 +1,71 @@
+/*fichier css*/
+html,
+body {
+
+  margin: 0px;
+  padding: 0px;
+  background: #666;
+}
+
+.content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page {
+  background: #fff;
+  padding: 60px 60px;
+  border-radius: 10px;
+}
+.info {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.info h1 {
+  margin: 0px;
+  color: #0099ff;
+}
+.data-input {
+  width: 270px;
+  border: 1px solid rgb(17, 17, 17);
+  display: flex;
+  margin-bottom: 15px;
+}
+.data-input i {
+  padding: 8px 16px;
+  color: rgb(10, 10, 10);
+}
+.data-input input {
+  border: 0px solid rgb(7, 7, 7);
+  width: 100%;
+  outline: none;
+  height: 30px;
+  font-size: 18px;
+}
+
+.verification span{
+  margin-left: .4rem;
+  font-size: .9rem;
+} 
+
+.verification {
+  margin-left: 1rem;
+}
+
+button {
+  background: #0099ff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 0px solid;
+  margin-top: 20px;
+  height: 50px;
+  width: 270px;
+  font-size: 20px;
+}
+button:hover{
+  background: #969595;
+  transform: scale(0.5, 0.5);
+}
